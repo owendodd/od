@@ -13,4 +13,8 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { label: "Nav Item", name: "navitem", widget: "boolean" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "markdown" }
       - { name: body, label: Body, widget: markdown }
